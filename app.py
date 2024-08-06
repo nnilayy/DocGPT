@@ -20,7 +20,7 @@ def to_markdown(text):
 
 
 # Configure the Generative AI with your API key
-genai.configure(api_key=google_api_key)
+genai.configure(api_key=st.secrets["google_api_key"])
 
 
 # Function to generate a response from the model
